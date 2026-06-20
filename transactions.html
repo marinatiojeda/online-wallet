@@ -13,6 +13,14 @@
             <a href="menu.html" class="text-decoration-none mb-3 d-block">← Volver al Menú</a>
             <h2 class="mb-4">Historial de Transacciones</h2>
             <div class="table-responsive">
+                <div class="mb-4 bg-white p-3 rounded shadow-sm border">
+    <label for="filtroTipo" class="form-label fw-bold text-secondary">🔍 Filtrar movimientos por tipo:</label>
+    <select id="filtroTipo" class="form-select border-primary">
+        <option value="todos">Ver todos los movimientos</option>
+        <option value="Depósito realizado">Solo Depósitos</option>
+        <option value="Transferencia enviada">Solo Transferencias enviadas</option>
+    </select>
+</div>
                 <table class="table table-striped table-hover align-middle">
                     <thead class="table-dark">
                         <tr>
