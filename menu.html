@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alke Wallet - Mi Cuenta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="menu.html">Alke Wallet</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link active" href="menu.html">Inicio</a>
+                <a class="nav-link" href="deposit.html">Depositar</a>
+                <a class="nav-link" href="sendmoney.html">Enviar Dinero</a>
+                <a class="nav-link" href="transactions.html">Movimientos</a>
+                <a class="nav-link text-warning" href="login.html">Salir</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card shadow text-white bg-success p-4">
+                    <h3>Saldo Disponible</h3>
+                    <h2 id="balanceText" class="display-4">$10,000</h2>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card shadow p-4 h-100">
+                    <h3>Acciones Rápidas</h3>
+                    <div class="d-grid gap-2 mt-3">
+                        <a href="deposit.html" class="btn btn-outline-primary">Depositar Fondos</a>
+                        <a href="sendmoney.html" class="btn btn-outline-primary">Enviar Dinero</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

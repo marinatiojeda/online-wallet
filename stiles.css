@@ -1,0 +1,38 @@
+/* Importar una tipografía moderna y limpia (Poppins) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0389f7 !important; /* Un gris/azul muy suave de fondo */
+}
+
+/* Personalizar las tarjetas (Cards) para que se vean más modernas */
+.card {
+    border: none !important;
+    border-radius: 16px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto visual sutil al pasar el mouse sobre las tarjetas (Mejora UX) */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(57, 6, 240, 0.902) !important;
+}
+
+/* Ajustes para el texto del Saldo Principal */
+#balanceText {
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+/* Estilo para los botones personalizados */
+.btn {
+    border-radius: 10px !important;
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+/* Animación para los enlaces de la barra de navegación */
+.navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
